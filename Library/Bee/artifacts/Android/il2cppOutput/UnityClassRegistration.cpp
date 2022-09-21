@@ -101,6 +101,7 @@ class Texture3D; template <> void RegisterUnityClass<Texture3D>(const char*);
 class TimeManager; template <> void RegisterUnityClass<TimeManager>(const char*);
 class Transform; template <> void RegisterUnityClass<Transform>(const char*);
 class Collider; template <> void RegisterUnityClass<Collider>(const char*);
+class ConstantForce; template <> void RegisterUnityClass<ConstantForce>(const char*);
 class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class PhysicsManager; template <> void RegisterUnityClass<PhysicsManager>(const char*);
 class Rigidbody; template <> void RegisterUnityClass<Rigidbody>(const char*);
@@ -110,7 +111,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 62 non stripped classes
+	//Total: 63 non stripped classes
 	//0. AudioBehaviour
 	RegisterUnityClass<AudioBehaviour>("Audio");
 	//1. AudioClip
@@ -227,13 +228,15 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Transform>("Core");
 	//57. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//58. MeshCollider
+	//58. ConstantForce
+	RegisterUnityClass<ConstantForce>("Physics");
+	//59. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//59. PhysicsManager
+	//60. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//60. Rigidbody
+	//61. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//61. SphereCollider
+	//62. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
 
 }

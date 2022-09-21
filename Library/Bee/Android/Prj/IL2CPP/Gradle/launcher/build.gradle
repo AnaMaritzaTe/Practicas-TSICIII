@@ -16,7 +16,7 @@ android {
     defaultConfig {
         minSdkVersion 28
         targetSdkVersion 31
-        applicationId 'com.Proyectin.NuevaP1RV'
+        applicationId 'com.Proyectin.Practica2_TrejoNava_AnaM'
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
         }

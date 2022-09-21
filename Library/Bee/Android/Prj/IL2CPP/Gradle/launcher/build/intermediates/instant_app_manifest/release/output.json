@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.Proyectin.NuevaP1RV",
+  "applicationId": "com.Proyectin.Practica2_TrejoNava_AnaM",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "AndroidManifest.xml",
       "properties": {
-        "packageId": "com.Proyectin.NuevaP1RV",
+        "packageId": "com.Proyectin.Practica2_TrejoNava_AnaM",
         "split": "",
         "minSdkVersion": "28"
       }

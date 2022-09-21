@@ -22,7 +22,7 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scenes/HelloCardboard.unity:
+    Assets/Scenes/Planofinal.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -41,7 +41,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 75
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -50,13 +54,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 6156}
+      Script: {instanceID: 6158}
     - Class: 114
-      Script: {instanceID: 6378}
+      Script: {instanceID: 6380}
     - Class: 114
-      Script: {instanceID: 6970}
+      Script: {instanceID: 6972}
     - Class: 114
-      Script: {instanceID: 7586}
+      Script: {instanceID: 7588}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -926,5 +930,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 13
   scenePathNames:
-  - Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scenes/HelloCardboard.unity
-  playerPath: C:/Users/ana_c/Documents/Temas selectos RV/NuevaP1RV/practRV.apk
+  - Assets/Scenes/Planofinal.unity
+  playerPath: C:/Users/ana_c/Documents/Temas selectos RV/NuevaP1RV/practica2.apk
